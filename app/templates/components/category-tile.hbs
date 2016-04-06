@@ -1,0 +1,9 @@
+{{#link-to 'category' category.id}}
+  <h2>{{category.title}}</h2><br>
+  <img src="{{category.image}}"/>
+{{/link-to}}
+
+{{#if admin}}
+  {{update-category}}
+  <button {{action 'deleteCategory' category}}>Delete</button>
+{{/if}}
