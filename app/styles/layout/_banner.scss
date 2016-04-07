@@ -1,8 +1,5 @@
 .banner {
-  @extend %flex;
   width: 100%;
-  background-color: black;
-  img {
-    max-width: 100%;
-  }
+   background-image: url('/assets/images/Ammu-Nation-Logo_2.svg');
+   background-size: cover;
 }
